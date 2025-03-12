@@ -48,7 +48,7 @@ const dispatch = useDispatch()
         <div className="flex  md:justify-start  flex-col gap-1.5 text-xl md:flex-row  md:ml-auto md:mr-auto">
             <NavLink className={({isActive})=>isActive ? "text-gray-300 px-2 py-1 border-b-2  border-gray-200 ":"text-gray-100  shadow px-2 py-1 "}to="/">Home</NavLink>
             <NavLink className={({isActive})=> isActive ?"text-gray-300   px-2 py-1 border-b-2  border-gray-200 " :"text-gray-100  shadow px-2 py-1"} to="/About">About</NavLink>
-            <NavLink  className={({isActive})=>isActive ? "text-gray-300  px-2 py-1 border-b-2  border-gray-200 ":"text-gray-100  shadow px-2 py-1"} to="/Contac">Contact</NavLink>
+            <NavLink  className={({isActive})=>isActive ? "text-gray-300  px-2 py-1 border-b-2  border-gray-200 ":"text-gray-100  shadow px-2 py-1"} to="/Contact">Contact</NavLink>
             <NavLink className={({isActive})=>isActive ? "text-gray-300 px-2 py-1 border-b-2  border-gray-200 ":"text-gray-100 shadow px-2 py-1 "}to="/Product">Product</NavLink>
         
         </div>

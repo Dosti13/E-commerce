@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { createUserWithEmailAndPassword,signInWithPopup } from "firebase/auth";
 import { auth ,google} from "../firebase/firebase";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { registerUser } from "../firebase/firebaseauth";
 
 const Signup = () => {
@@ -70,7 +70,7 @@ const Signup = () => {
                   Sign Up with Google
           </button>
         <p className="text-center text-gray-600 mt-4">
-          Already have an account? <a href="/signin" className="text-blue-500">Login</a>
+          Already have an account? <Link to="/signin" className="text-blue-500">Login</Link>
         </p>
       </div>
     </div>

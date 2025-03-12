@@ -31,9 +31,9 @@ const About = () => {
         <h3 className="text-xl font-semibold text-gray-800">Connect With Us</h3>
         <p className="text-gray-600">Follow us on social media for the latest updates and deals.</p>
         <div className="flex justify-center space-x-4 mt-4">
-          <a href="#" className="text-blue-600 text-2xl"><i className="fab fa-facebook"></i></a>
-          <a href="#" className="text-blue-400 text-2xl"><i className="fab fa-twitter"></i></a>
-          <a href="#" className="text-pink-500 text-2xl"><i className="fab fa-instagram"></i></a>
+          <Link to="#" className="text-blue-600 text-2xl"><i className="fab fa-facebook"></i></Link>
+          <Link to="#" className="text-blue-400 text-2xl"><i className="fab fa-twitter"></i></Link>
+          <Link to="#" className="text-pink-500 text-2xl"><i className="fab fa-instagram"></i></Link>
         </div>
       </div>
     </div>

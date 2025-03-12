@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -22,24 +22,24 @@ function Footer() {
             <h2 className="text-white font-bold text-lg mb-4">Quick Links</h2>
             <ul>
               <li className="mb-2">
-                <a href="/" className="hover:text-white">
+                <Link to="/" className="hover:text-white">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/about" className="hover:text-white">
+                <Link to="/about" className="hover:text-white">
                   About
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/products" className="hover:text-white">
+                <Link to="/product" className="hover:text-white">
                   Products
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/contact" className="hover:text-white">
+                <Link to={"/Contact"}  className="hover:text-white">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -51,24 +51,24 @@ function Footer() {
             </h2>
             <ul>
               <li className="mb-2">
-                <a href="/faq" className="hover:text-white">
+                <Link to="/Contact" className="hover:text-white">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/returns" className="hover:text-white">
+                <Link to="/Contact" className="hover:text-white">
                   Returns
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/shipping" className="hover:text-white">
+                <Link to="/Contact" className="hover:text-white">
                   Shipping Info
-                </a>
+                </Link>
               </li>
               <li className="mb-2">
-                <a href="/support" className="hover:text-white">
+                <Link to="/Contact" className="hover:text-white">
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

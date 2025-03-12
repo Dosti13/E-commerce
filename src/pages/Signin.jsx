@@ -62,7 +62,7 @@ const Signin = () => {
         </form>
 
         <p className="text-center text-gray-600 mt-4">
-          Don't have an account? <a href="/signup" className="text-blue-500">Sign up</a>
+          Don't have an account? <Link to="/signup" className="text-blue-500">Sign up</Link>
         </p>
       </div>
     </div>
