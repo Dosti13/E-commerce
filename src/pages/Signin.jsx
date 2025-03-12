@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { signInUser } from "../firebase/firebaseauth";
 import { EyeIcon, EyeOffIcon } from "lucide-react"; // Using lucide-react for icons
 
